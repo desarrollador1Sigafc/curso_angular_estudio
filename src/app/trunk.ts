@@ -4,9 +4,10 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  template: `<div>
+      <router-outlet/>
+  </div>`,
 })
-export class AppComponent {
+export class Trunk {
   title = 'test_angular';
 }
